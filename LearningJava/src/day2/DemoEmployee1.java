@@ -6,9 +6,13 @@ public class DemoEmployee1 {
 		
 		Employee mohit = new Employee();
 		
+		Employee.employeeCount = 10;
+		
 		mohit.setSalary(20000);
 		
 		mohit.calculateSalary();
+		
+		System.out.println(mohit.employeeCount);
 	}
 
 }

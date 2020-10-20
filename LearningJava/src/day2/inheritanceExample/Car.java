@@ -19,6 +19,7 @@ public class Car extends Machine{
 		System.out.println("Restart");
 	}
 	
+	@Override
 	public void stop() {
 		System.out.println("Stop method from class car");
 	}

@@ -9,6 +9,8 @@ public class Machine {
 	public Machine() {
 		System.out.println("Constructor of Machine Class");
 	}
+	
+
 
 	public Machine(int engineSize) {
 

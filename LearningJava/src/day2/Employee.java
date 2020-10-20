@@ -6,6 +6,8 @@ public class Employee {
 
 	private int bonus;
 	
+	static int employeeCount;
+	
 	
 	public Employee(){
 		
